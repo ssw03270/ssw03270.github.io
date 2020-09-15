@@ -1,5 +1,5 @@
 body {
-    font-family: 'Ubuntu', sans-serif, 'Nanum Gothic Coding', monospace;
+    font-family: 'Do Hyeon', sans-serif;
 }
 .content {
     width: 60%;
@@ -9,6 +9,11 @@ body {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 0.5em;
+}
+.error-message {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
 }
 .menu {
     list-style-type: none;
@@ -28,6 +33,6 @@ body {
 
 #profile-image {
     width: 100%;
+    border-radius: 50%;
     float: right;
-    
 }
