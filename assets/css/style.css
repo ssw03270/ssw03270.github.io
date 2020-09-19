@@ -1,23 +1,87 @@
 body {
     font-family: 'Do Hyeon', sans-serif;
+    background-color: #f9f8f7;
 }
-.content {
+.container content{
+    padding: 0 auto;
+}
+hr{
+    border-color: black;
+    margin: 1%;
+    border-width: 1px;
+}
+.box-zero-one{
+    margin: 1px;
+    width: 85%;
+    border-style: solid;
+    background-color: #e2e1e0;
+    border-color: black;
+}
+.box-zero-two{
+    margin: 1px;
+    width: 14.5%;
+    border-style: solid;
+    background-color: #e2e1e0;
+    border-color: black;
+}
+.box-one{
+    margin: 1px;
     width: 60%;
+    border-style: solid;
+    background-color: #FFD357;
 }
-.header {
+.box-two{
+    margin: 1px;
+    width: 39.5%;
+    border-style: solid;
+    background-color: #35C795;
+}
+.box-three{
+    margin: 1px;
+    width: 39.5%;
+    border-style: solid;
+    background-color: #F4953D;
+}
+.box-four{
+    margin: 1px;
+    width: 60%;
+    border-style: solid;
+    background-color: #DB5461;
+}
+.box-five{
+    margin: 1px;
+    width: 50%;
+    border-style: solid;
+    background-color: #8B86C4;
+}
+.box-six{
+    margin: 1px;
+    width: 49.5%;
+    border-style: solid;
+    background-color: #ffffff;
+}
+.box-seven{
+    margin: 1px;
+    width: 100%;
+    border-style: solid;
+    background-color: #5a5a5a;
+}
+.title{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.top {
+    color: gray;
     font-weight: bold;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
 }
-.error-message {
+.mid {
     font-weight: bold;
-    text-align: center;
-    padding-top: 1em;
 }
 .menu {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
 }
@@ -25,14 +89,23 @@ body {
     display: inline-block;
     padding: 1em;
 }
-
-.title {
-    margin-top: 1em;
-    margin-bottom: 1em;
+.contact {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
-#profile-image {
+.contact li {
+    display: inline-block;
+    padding: 1em;
+}
+.title {
+    margin: 0.5em;
+}
+#poster-image {
     width: 100%;
-    border-radius: 50%;
-    float: right;
+}
+#profile-image {
+    margin: 5%;
+    width: 90%;
 }
