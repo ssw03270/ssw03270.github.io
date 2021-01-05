@@ -5,7 +5,7 @@ title: 닌텐도 스위치 구매
 
 ---
 
-> ![Alt text](../assets/Image/2021-01-06.jpg)
+> ![Alt text](/assets/Image/2021-01-06.jpg)
 
 -----
 
