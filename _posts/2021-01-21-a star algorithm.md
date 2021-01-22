@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 오랜만에 쓰기
+title: A* 알고리즘
 
 ---
 
