@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 근황
+title: 근황2
 
 ---
 
