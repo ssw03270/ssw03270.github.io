@@ -85,6 +85,8 @@ Terrain Fitting을 위한 Error Function이다.
 Terrain의 높이가 l보다 커지면 이에 해당하는데 l은 논문에서 30cm로 설정되어 있다.
 이를 통해 큰 장애물에서는 큰 점프를 하고, 작은 장애물에서는 부드럽게 넘어간다.
 
+-----
+
 # PHASE-FUNCTIONED NEURAL NETWORK
 
 앞서 이야기했듯이, Phase Function은 발의 위상에 기반하여 캐릭터의 애니메이션을 생성한다.
@@ -130,6 +132,8 @@ Cost Function은 두 개의 항으로 이뤄져있다.
 
 마지막으로 위는 input과 output에 쓰이는 parameter다.
 
+-----
+
 # EVALUATION
 
 추가적으로 다른 Network와 PFNN을 비교하면서 마치겠다.
@@ -144,6 +148,8 @@ Cost Function은 두 개의 항으로 이뤄져있다.
 Phase Function으로 Gaussian Process로 대체할 경우 유사한 효과를 보인다.
 그러나 많은 데이터로부터 배우는 것이 불가능하기 때문에 결과적으로 좋지 못하다.
 그리고 overfitting을 피하기 어렵다.
+
+-----
 
 # Appendix
 
