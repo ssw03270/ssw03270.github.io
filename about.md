@@ -4,26 +4,23 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  꿈은 소설가, 장래희망은 프로그래머.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+## 🎓 Education 🎓
+ - KyungHee University, Dept. of Software Convergence (2020.03. ~ Recent)
+ - Jisan High School (2017.03. ~ 2020.02.)
+ - Jisan Middle School (2014.03. ~ 2017.02.)
+  
+## 📚 I can... 📚
+ - C, C++, Unreal
+ - C#, Unity
+ - Python
+ 
+## 🚲 Activities 🚲
+ - IIIXR Lab ; Undergraduate Researcher (2021.12. ~ Recent)
+ - Ludens ; Vice Chairman (2021.07. ~ Recent)
+ - Kyunghee University, Software Membership (2021.0.6 ~ Recent)
+ - 2021 Student Council of Dept. of Software Convergence; Chairman (2021.01. ~ 2021.12)
+ - 2020 Student Council of Dept. of Software Convergence (2020.09. ~ 2020.11)
+ - SWTUBE ; filming department (2020.02. ~ Recent)
