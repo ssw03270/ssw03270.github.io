@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5eb7236b-4f28-4cad-b0e5-810d9b791d5d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.commitlintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/help_wanted.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/question.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cd.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/codeql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/commitlint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pages-deploy.yml.hook" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/style-lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.husky/commit-msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.versionrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/authors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/contact.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/ar.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/bg-BG.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/cs-CZ.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/de-DE.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/el-GR.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/es-ES.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/fi-FI.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/fr-FR.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/hu-HU.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/id-ID.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/it-IT.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/ko-KR.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/my-MM.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/pt-BR.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/ru-RU.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/sl-SI.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/sv-SE.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/tr-TR.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/uk-UA.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/vi-VN.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/zh-CN.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/locales/zh-TW.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/origin/basic.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/origin/cors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/share.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments/disqus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments/giscus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments/utterances.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/datetime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/embed/twitch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/embed/youtube.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/favicons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/google-analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/js-selector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/jsdelivr-combine.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/lang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/language-alias.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/mermaid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/metadata-hook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/mode-toggle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/no-linenos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/origin-type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post-nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post-paginator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post-sharing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/read-time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/refactor-content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/related-posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/search-loader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/search-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/topbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/trending-tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/update-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/_copyright" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/commons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/back-to-top.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/category-collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/img-lazyload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/img-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/locale-datetime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/mode-watcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/pageviews.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/search-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/toc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/components/tooltip-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/layouts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/layouts/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/layouts/sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/layouts/topbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/modules/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_javascript/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/archives.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/compress.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/tag.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/posts-lastmod-hook.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-08-text-and-typography.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-08-write-a-new-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-09-getting-started.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-11-customize-the-favicon.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-01-03-enable-google-pv.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/addon/commons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/addon/module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/addon/syntax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/addon/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/colors/dark-syntax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/colors/dark-typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/colors/light-syntax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/colors/light-typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/jekyll-theme-chirpy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/archives.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/categories.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/category-tag.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/tags.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/variables-hook.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_tabs/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_tabs/archives.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_tabs/categories.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_tabs/tags.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicons/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/data/search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/data/swcache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pwa/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pwa/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/pwa/unregister.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jekyll-theme-chirpy.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/test" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q8qrSuwUuZ3FjQDQR3se7d3FAD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eb7236b-4f28-4cad-b0e5-810d9b791d5d" name="Changes" comment="" />
+      <created>1684745754494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684745754494</updated>
+    </task>
+    <servers />
+  </component>
+</project>
