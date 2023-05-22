@@ -13,7 +13,7 @@ baseurl: "/ssw03270.github.io"
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Korea (South)
+timezone: Asia/Korea(South)
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -29,10 +29,10 @@ description: >- # used by seo meta and the atom feed
 url: "http://ssw03270.github.io/"
 
 github:
-  username: github_username # change to your github username
+  username: ssw03270 # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
