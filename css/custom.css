@@ -36,3 +36,21 @@ hr {
   background: #ccc;
   margin: 40px 20px; /* 상하 간격을 조정할 수 있음 */
 }
+a {
+  text-decoration: underline;
+  text-underline-offset: 4px; /* 언더바와 텍스트 사이의 간격을 조정 */
+}
+/* 모바일 화면용 미디어 쿼리 */
+@media (max-width: 768px) {
+  .publication-card {
+    flex-direction: column; /* 모바일에서 카드를 수직 배치 */
+    padding: 10px; /* 여백을 줄임 */
+  }
+  .publication-image {
+    max-width: 100%; /* 이미지를 화면에 맞게 줄임 */
+    margin-bottom: 10px;
+  }
+  h4 {
+    font-size: 16px; /* 모바일에 맞게 폰트 크기 조정 */
+  }
+}
