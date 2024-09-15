@@ -1,0 +1,38 @@
+.publication-card {
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  align-items: center /* 이미지와 텍스트 수직 중앙 정렬 */;
+}
+.publication-image {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 15px;
+  display: flex;
+}
+.publication-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.publication-content {
+  flex: 3;
+}
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px /* 헤딩과 본문 사이의 간격 줄이기 */;
+}
+p {
+  margin: 2px 0 /* 문단 사이의 간격 줄이기 */;
+  color: #555;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 40px 20px; /* 상하 간격을 조정할 수 있음 */
+}
