@@ -10,8 +10,9 @@
 .publication-image {
   flex: 1;
   max-width: 300px;
-  margin-right: 15px;
   display: flex;
+  justify-content: center /* 이미지를 수평 중앙 정렬 */;
+  align-items: center /* 이미지를 수직 중앙 정렬 */;
 }
 .publication-image img {
   width: 100%;
@@ -19,6 +20,7 @@
   border-radius: 8px;
 }
 .publication-content {
+  margin-left: 15px;
   flex: 3;
 }
 h4 {
@@ -53,4 +55,15 @@ a {
   h4 {
     font-size: 16px; /* 모바일에 맞게 폰트 크기 조정 */
   }
+}
+/* 링크에 hover 효과 추가 */
+a:hover {
+  color: #007acc; /* 링크 hover 시 색상 변경 */
+  text-decoration: none; /* hover 시 언더라인 제거 */
+}
+/* 카드에 hover 효과 추가 */
+.publication-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* hover 시 그림자 강조 */
+  transform: translateY(-2px); /* 약간 위로 올라가는 효과 */
+  transition: all 0.2s ease; /* 부드러운 전환 */
 }

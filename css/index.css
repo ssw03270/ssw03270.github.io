@@ -987,3 +987,19 @@ blockquote p {
 ::-webkit-scrollbar-thumb {
   background-color: rgba(122,130,136,0.4);
 }
+.navicon,
+.menus_icon,
+.cd-top {
+  display: none !important; /* 요소 완전히 제거 */
+  pointer-events: none !important; /* 클릭 불가능하게 설정 */
+}
+.nav-wrap,
+.nav_items,
+.cd-top {
+  display: none !important; /* 요소 완전히 제거 */
+  pointer-events: none !important; /* 클릭 비활성화 */
+}
+html,
+body {
+  overflow-x: hidden; /* 수평 스크롤을 제거 */
+}
