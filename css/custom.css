@@ -18,6 +18,10 @@
   width: 100%;
   height: auto;
   border-radius: 8px;
+  transition: transform 0.3s ease;  /* 부드러운 애니메이션 효과 추가 */
+}
+.publication-image img:hover {
+  transform: scale(1.05);  /* 호버 상태일 때 이미지가 살짝 커짐 */
 }
 .publication-content {
   margin-left: 15px;
