@@ -1,73 +1,185 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Global Font & Color Overrides */
+body,
+a,
+span,
+.btn,
+.page article p,
+.page article li,
+.side-card p,
+.side-card li {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  color: #2c3e50;
+  font-size: 1.6rem !important;
+  /* Reduced from 1.8rem (18px) to 1.6rem (16px) */
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif !important;
+  color: #1a252f;
+  /* Darker heading color */
+  font-weight: 600;
+}
+
+/* Link Colors */
+a {
+  color: #0056b3;
+  /* Academic Blue */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #003d82;
+  /* Darker Blue on hover */
+  text-decoration: underline;
+}
+
+/* Publication Card - Modernized */
 .publication-card {
   display: flex;
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  align-items: center /* 이미지와 텍스트 수직 중앙 정렬 */;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+  align-items: flex-start;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.publication-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+  /* Softer, deeper shadow */
+  border-color: #d1d5da;
+}
+
 .publication-image {
-  flex: 1;
-  max-width: 300px;
-  display: flex;
-  justify-content: center /* 이미지를 수평 중앙 정렬 */;
-  align-items: center /* 이미지를 수직 중앙 정렬 */;
+  flex: 0 0 280px;
+  /* Fixed width for image container */
+  margin-right: 24px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .publication-image img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease;  /* 부드러운 애니메이션 효과 추가 */
+  display: block;
+  transition: transform 0.3s ease;
 }
+
 .publication-image img:hover {
-  transform: scale(1.05);  /* 호버 상태일 때 이미지가 살짝 커짐 */
+  transform: scale(1.03);
 }
+
 .publication-content {
-  margin-left: 15px;
-  flex: 3;
+  flex: 1;
+  margin-left: 0;
+  /* Reset margin as we use flex gap/margin-right on image */
 }
-h4 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 5px /* 헤딩과 본문 사이의 간격 줄이기 */;
+
+/* Publication Typography */
+/* Increased specificity to override global .page article p style */
+.publication-card .publication-content h4 {
+  font-size: 1.8rem;
+  /* Increased from 1.4rem to be larger than body text (1.6rem) */
+  margin-top: 0;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: #0056b3;
 }
-p {
-  margin: 2px 0 /* 문단 사이의 간격 줄이기 */;
-  color: #555;
+
+/* Increased specificity to override global .page article p style */
+.publication-card .publication-content p {
+  font-size: 1.3rem !important;
+  /* Slightly increased from 1.15rem for better balance with 1.6rem body */
+  line-height: 1.4;
+  margin-top: 0 !important;
+  margin-bottom: 2px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+  color: #4a5568;
 }
-hr {
-  border: 0;
-  height: 1px;
-  background: #ccc;
-  margin: 40px 20px; /* 상하 간격을 조정할 수 있음 */
+
+.publication-content strong {
+  color: #2d3748;
+  font-weight: 600;
 }
-a {
-  text-decoration: underline;
-  text-underline-offset: 4px; /* 언더바와 텍스트 사이의 간격을 조정 */
+
+/* Side Card (Profile) Overrides */
+.side-card {
+  background: transparent;
+  /* Remove background if any */
 }
-/* 모바일 화면용 미디어 쿼리 */
+
+.author-discrip h3 {
+  font-size: 1.5rem;
+  color: #1a252f;
+  margin-bottom: 4px;
+}
+
+.author-bio {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.social-icons .fa,
+.social-icons .fas,
+.social-icons .fab {
+  color: #495057;
+  /* Neutral grey for icons */
+}
+
+.social-icons .fa:hover,
+.social-icons .fas:hover,
+.social-icons .fab:hover {
+  color: #0056b3;
+  /* Blue on hover */
+}
+
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .publication-card {
-    flex-direction: column; /* 모바일에서 카드를 수직 배치 */
-    padding: 10px; /* 여백을 줄임 */
+    flex-direction: column;
+    padding: 16px;
   }
+
   .publication-image {
-    max-width: 100%; /* 이미지를 화면에 맞게 줄임 */
-    margin-bottom: 10px;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
   }
-  h4 {
-    font-size: 16px; /* 모바일에 맞게 폰트 크기 조정 */
+
+  .publication-content h4 {
+    font-size: 1.15rem;
   }
 }
-/* 링크에 hover 효과 추가 */
-a:hover {
-  color: #007acc; /* 링크 hover 시 색상 변경 */
-  text-decoration: none; /* hover 시 언더라인 제거 */
+
+/* Footer Clean up */
+#page_footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  color: #6c757d;
 }
-/* 카드에 hover 효과 추가 */
-.publication-card:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* hover 시 그림자 강조 */
-  transform: translateY(-2px); /* 약간 위로 올라가는 효과 */
-  transition: all 0.2s ease; /* 부드러운 전환 */
+
+#page_footer a {
+  color: #495057;
+}
+
+#page_footer a:hover {
+  color: #0056b3;
 }
