@@ -1,6 +1,21 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* CSS Variables for consistent theming */
+:root {
+  --color-primary: #0056b3;
+  --color-primary-dark: #003d82;
+  --color-text: #2c3e50;
+  --color-heading: #1a252f;
+  --color-muted: #6c757d;
+  --color-border: #e1e4e8;
+  --color-bg-light: #f8f9fa;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --transition-fast: 0.2s ease-in-out;
+  --shadow-card: 0 4px 6px rgba(0, 0, 0, 0.02);
+  --shadow-card-hover: 0 8px 12px rgba(0, 0, 0, 0.08);
+}
+
 /* Global Font & Color Overrides */
 body,
 a,
@@ -10,10 +25,9 @@ span,
 .page article li,
 .side-card p,
 .side-card li {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  color: #2c3e50;
+  font-family: var(--font-family) !important;
+  color: var(--color-text);
   font-size: 1.6rem !important;
-  /* Reduced from 1.8rem (18px) to 1.6rem (16px) */
 }
 
 /* Headings */
@@ -23,23 +37,30 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inter', sans-serif !important;
-  color: #1a252f;
-  /* Darker heading color */
+  font-family: var(--font-family) !important;
+  color: var(--color-heading);
   font-weight: 600;
+}
+
+/* Section Sub-headings (h3) */
+.page article h3 {
+  font-size: 1.8rem;
+  color: var(--color-muted);
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--color-border);
 }
 
 /* Link Colors */
 a {
-  color: #0056b3;
-  /* Academic Blue */
+  color: var(--color-primary);
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
+  transition: color var(--transition-fast);
 }
 
 a:hover {
-  color: #003d82;
-  /* Darker Blue on hover */
+  color: var(--color-primary-dark);
   text-decoration: underline;
 }
 
@@ -47,27 +68,25 @@ a:hover {
 .publication-card {
   display: flex;
   background-color: #ffffff;
-  border: 1px solid #e1e4e8;
-  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 0;
   padding: 20px;
   margin-bottom: 24px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+  box-shadow: var(--shadow-card);
   align-items: flex-start;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 .publication-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
-  /* Softer, deeper shadow */
+  box-shadow: var(--shadow-card-hover);
   border-color: #d1d5da;
 }
 
 .publication-image {
   flex: 0 0 280px;
-  /* Fixed width for image container */
   margin-right: 24px;
-  border-radius: 8px;
+  border-radius: 0;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -93,11 +112,10 @@ a:hover {
 /* Increased specificity to override global .page article p style */
 .publication-card .publication-content h4 {
   font-size: 1.8rem;
-  /* Increased from 1.4rem to be larger than body text (1.6rem) */
   margin-top: 0;
   margin-bottom: 8px;
   line-height: 1.4;
-  color: #0056b3;
+  color: var(--color-primary);
 }
 
 /* Increased specificity to override global .page article p style */
@@ -126,12 +144,12 @@ a:hover {
 
 .author-discrip h3 {
   font-size: 1.5rem;
-  color: #1a252f;
+  color: var(--color-heading);
   margin-bottom: 4px;
 }
 
 .author-bio {
-  color: #6c757d;
+  color: var(--color-muted);
   font-weight: 500;
 }
 
@@ -139,14 +157,13 @@ a:hover {
 .social-icons .fas,
 .social-icons .fab {
   color: #495057;
-  /* Neutral grey for icons */
+  transition: color var(--transition-fast);
 }
 
 .social-icons .fa:hover,
 .social-icons .fas:hover,
 .social-icons .fab:hover {
-  color: #0056b3;
-  /* Blue on hover */
+  color: var(--color-primary);
 }
 
 /* Mobile Responsiveness */
@@ -171,15 +188,16 @@ a:hover {
 
 /* Footer Clean up */
 #page_footer {
-  background-color: #f8f9fa;
+  background-color: var(--color-bg-light);
   border-top: 1px solid #e9ecef;
-  color: #6c757d;
+  color: var(--color-muted);
 }
 
 #page_footer a {
   color: #495057;
+  transition: color var(--transition-fast);
 }
 
 #page_footer a:hover {
-  color: #0056b3;
+  color: var(--color-primary);
 }
