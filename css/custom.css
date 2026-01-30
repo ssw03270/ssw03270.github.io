@@ -64,76 +64,54 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Publication Card - Modernized */
-.publication-card {
-  display: flex;
-  background-color: #ffffff;
-  border: 1px solid var(--color-border);
-  border-radius: 0;
-  padding: 20px;
-  margin-bottom: 24px;
-  box-shadow: var(--shadow-card);
-  align-items: flex-start;
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+/* Publication Card Title */
+.pub-card h4 {
+  color: var(--color-primary) !important;
 }
 
-.publication-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-card-hover);
-  border-color: #d1d5da;
+/* Publication Styles */
+.pub-authors {
+  font-size: 1.4rem !important;
+  color: var(--color-text) !important;
+  margin: 4px 0 8px 0 !important;
+  line-height: 1.5;
 }
 
-.publication-image {
-  flex: 0 0 280px;
-  margin-right: 24px;
-  border-radius: 0;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.publication-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.3s ease;
-}
-
-.publication-image img:hover {
-  transform: scale(1.03);
-}
-
-.publication-content {
-  flex: 1;
-  margin-left: 0;
-  /* Reset margin as we use flex gap/margin-right on image */
-}
-
-/* Publication Typography */
-/* Increased specificity to override global .page article p style */
-.publication-card .publication-content h4 {
-  font-size: 1.8rem;
-  margin-top: 0;
-  margin-bottom: 8px;
-  line-height: 1.4;
-  color: var(--color-primary);
-}
-
-/* Increased specificity to override global .page article p style */
-.publication-card .publication-content p {
-  font-size: 1.3rem !important;
-  /* Slightly increased from 1.15rem for better balance with 1.6rem body */
-  line-height: 1.4;
-  margin-top: 0 !important;
-  margin-bottom: 2px !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding: 0 !important;
-  color: #4a5568;
-}
-
-.publication-content strong {
-  color: #2d3748;
+.pub-authors strong {
+  color: var(--color-text);
   font-weight: 600;
+}
+
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.pub-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 1.2rem !important;
+  color: var(--color-primary) !important;
+  background-color: #f0f7ff;
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  text-decoration: none !important;
+  transition: all var(--transition-fast);
+}
+
+.pub-link-btn:hover {
+  background-color: var(--color-primary);
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.pub-link-btn i {
+  font-size: 1.1rem;
 }
 
 /* Side Card (Profile) Overrides */
@@ -184,6 +162,61 @@ a:hover {
   .publication-content h4 {
     font-size: 1.15rem;
   }
+}
+
+/* Info Card - Education & Experience */
+.info-card {
+  background-color: #ffffff;
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.info-card:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.info-card-content {
+  flex: 1;
+}
+
+.info-card-content h4 {
+  font-size: 1.6rem;
+  margin: 0 0 4px 0;
+  color: var(--color-heading);
+}
+
+.info-card-content .info-org {
+  font-size: 1.4rem !important;
+  color: var(--color-primary);
+  margin: 0 0 4px 0 !important;
+}
+
+.info-card-content .info-team {
+  color: var(--color-text);
+}
+
+.info-card-content .info-meta {
+  font-size: 1.3rem !important;
+  color: var(--color-muted);
+  margin: 0 0 8px 0 !important;
+}
+
+.info-card-content .info-desc {
+  font-size: 1.4rem !important;
+  color: var(--color-text);
+  margin: 0 !important;
+  padding-left: 0;
+}
+
+.info-card-content .info-desc li {
+  font-size: 1.4rem !important;
+  list-style: disc;
+  margin-left: 1.5rem;
 }
 
 /* Footer Clean up */
