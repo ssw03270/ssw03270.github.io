@@ -118,9 +118,10 @@
                         <div class="pub-links">
                             <a href="https://openreview.net/forum?id=GODFBZhFcX" target="_blank" rel="noopener"
                                 class="pub-link-btn"><i class="fas fa-file-alt"></i> Paper</a>
-                            <a href="/img/pce-image.png" target="_blank" rel="noopener" class="pub-link-btn"><i
-                                    class="fas fa-image"></i> Image</a>
                         </div>
+                    </div>
+                    <div class="pub-image-container">
+                        <img src="/img/pce-image.png" alt="ICLR 2026 Publication Image" class="pub-image">
                     </div>
                 </div>
 
@@ -140,9 +141,10 @@
                                 class="pub-link-btn"><i class="fas fa-video"></i> Video</a>
                             <a href="https://ssw03270.github.io/REVECA_AAAI-25_Page/" target="_blank" rel="noopener"
                                 class="pub-link-btn"><i class="fas fa-globe"></i> Project</a>
-                            <a href="/img/reveca-image.png" target="_blank" rel="noopener" class="pub-link-btn"><i
-                                    class="fas fa-image"></i> Image</a>
                         </div>
+                    </div>
+                    <div class="pub-image-container">
+                        <img src="/img/reveca-image.png" alt="AAAI 2025 Publication Image" class="pub-image">
                     </div>
                 </div>
 
@@ -158,9 +160,10 @@
                                 class="pub-link-btn"><i class="fas fa-file-alt"></i> Paper</a>
                             <a href="https://youtu.be/Adow5A104Kg?si=j_mVez5kLEb7zWe3" target="_blank" rel="noopener"
                                 class="pub-link-btn"><i class="fas fa-video"></i> Video</a>
-                            <a href="/img/damo-image.png" target="_blank" rel="noopener" class="pub-link-btn"><i
-                                    class="fas fa-image"></i> Image</a>
                         </div>
+                    </div>
+                    <div class="pub-image-container">
+                        <img src="/img/damo-image.png" alt="ACM TOG 2024 Publication Image" class="pub-image">
                     </div>
                 </div>
 
@@ -177,9 +180,10 @@
                                 class="pub-link-btn"><i class="fas fa-file-alt"></i> Paper</a>
                             <a href="https://youtu.be/rKOmgG7J1_c?si=D2v5AUBb_zEjrmAT" target="_blank" rel="noopener"
                                 class="pub-link-btn"><i class="fas fa-video"></i> Video</a>
-                            <a href="/img/daram-image.png" target="_blank" rel="noopener" class="pub-link-btn"><i
-                                    class="fas fa-image"></i> Image</a>
                         </div>
+                    </div>
+                    <div class="pub-image-container">
+                        <img src="/img/daram-image.png" alt="ACM SIGGRAPH 2023 Publication Image" class="pub-image">
                     </div>
                 </div>
 
@@ -471,6 +475,17 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js"></script>
     <script src="/js/main.js"></script>
+    <script>
+        // Publication 카드 클릭 시 이미지 토글
+        document.querySelectorAll('.pub-card').forEach(card => {
+            card.addEventListener('click', function (e) {
+                // 링크 클릭 시에는 이미지 토글 방지
+                if (e.target.closest('.pub-link-btn')) return;
+
+                this.classList.toggle('expanded');
+            });
+        });
+    </script>
 </body>
 
 </html>

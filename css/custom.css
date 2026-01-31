@@ -114,6 +114,46 @@ a:hover {
   font-size: 1.1rem;
 }
 
+/* Publication Card - 클릭 가능한 스타일 */
+.pub-card {
+  cursor: pointer;
+  position: relative;
+}
+
+.pub-card::after {
+  content: '▼';
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 1.2rem;
+  color: var(--color-muted);
+  transition: transform var(--transition-fast);
+}
+
+.pub-card.expanded::after {
+  transform: rotate(180deg);
+}
+
+/* Publication Image Container - 아코디언 스타일 */
+.pub-image-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+  padding: 0 20px;
+}
+
+.pub-card.expanded .pub-image-container {
+  max-height: 600px;
+  padding: 16px 20px;
+}
+
+.pub-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 /* Side Card (Profile) Overrides */
 .side-card {
   background: transparent;
