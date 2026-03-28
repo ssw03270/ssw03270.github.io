@@ -299,6 +299,10 @@ a:hover {
   margin-left: 1.5rem;
 }
 
+.info-card-content .info-desc a {
+  font-size: inherit !important;
+}
+
 /* Grid Cards - Awards, Scholarships, Teaching */
 .grid-cards {
   display: grid;
